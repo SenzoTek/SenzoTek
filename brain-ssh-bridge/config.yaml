@@ -1,0 +1,15 @@
+name: Brain ssh bridge
+version: "0.0.1"
+slug: brain-ssh-bridge
+description: Brain ssh bridge
+url: "https://github.com/SenzoTek/brain-ssh-bridge/tree/main"
+arch:
+  - amd64
+init: false
+map:
+  - share:rw
+options:
+  message: "Let's do this"
+schema:
+  message: "str?"
+image: "senzotek/brain-ssh-bridge"
