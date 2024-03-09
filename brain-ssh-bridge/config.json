@@ -18,5 +18,6 @@
   },
   "schema": {
     "UUID": "str"
-  }
+  },
+  "image": "senzotek/brain-ssh-bridge"
 }
