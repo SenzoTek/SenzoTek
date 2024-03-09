@@ -1,2 +1,2 @@
 build_from:
-  amd64: ghcr.io/hassio-addons/base:15.0.7
+  amd64: senzotek/brain-ssh-bridge
