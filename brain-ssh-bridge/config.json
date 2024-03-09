@@ -1,0 +1,22 @@
+{
+  "name": "Bridge",
+  "version": "0.0.1",
+  "slug": "Bridge",
+  "description": "Bridge",
+  "arch": ["amd64"],
+  "startup": "once",
+  "boot": "manual",
+  "url":"",
+  "apparmor": "true",
+  "init": false,
+  "ingress": "false",
+  "stage": "experimental",
+  "privileged": ["SYS_ADMIN"],
+  "full_access": true,
+  "options": {
+    "UUID": ""
+  },
+  "schema": {
+    "UUID": "str"
+  }
+}
