@@ -9,7 +9,6 @@ init: false
 map:
   - share:rw
 options:
-  message: "Let's do this"
+  UUID: ""
 schema:
-  message: "str?"
-image: "senzotek/brain-ssh-bridge"
+  UUID: "str?"
